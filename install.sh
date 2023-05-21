@@ -18,7 +18,7 @@ else
             ;;
     esac
     apt-get install -y xvfb wget libgtk-3-0 libatspi2.0-0 libatomic1 libgdk-pixbuf2.0-dev libgtk-3-dev libxss-dev libgconf-2-4 libatk1.0-0 libatk-bridge2.0-0 libgdk-pixbuf2.0-0 libgbm-dev libnss3-dev
-    wget https://www.dropbox.com/s/df2y8zpvhc3zap8/9hits-bot-linux-x64.tar.bz2
+    wget http://dl.9hits.com/3.0.4/9hitsv3-linux64.tar.bz2
     tar -xjvf 9hits-bot-linux-x64.tar.bz2
     mv /root/9Hits-bot/9hits-bot-linux-x64 /root/9Hits-bot/9HitsViewer-bot
     rm -rf 9hits-bot-linux-x64.tar.bz2 9hits-bot-linux-x64
